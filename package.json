@@ -1,0 +1,26 @@
+{
+  "name": "helix-plugin-template",
+  "version": "1.0.0",
+  "description": "Official starter template for building HELIX Discord Bot language plugins and custom source providers",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "helix",
+    "discord-bot",
+    "plugin",
+    "code-intelligence",
+    "linter"
+  ],
+  "author": "HELIX-Origin",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.0"
+  }
+}

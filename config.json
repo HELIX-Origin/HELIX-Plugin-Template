@@ -1,0 +1,20 @@
+{
+  "repository": "HELIX-Origin/helix-plugin-template",
+  "name": "HELIX Starter Language Plugin & Source Provider Template",
+  "version": "1.0.0",
+  "description": "Boilerplate starter repository for creating and hosting HELIX language plugins and custom source providers",
+  "author": "HELIX-Origin",
+  "homepage": "https://github.com/HELIX-Origin/helix-plugin-template",
+  "plugins": [
+    {
+      "id": "sample-plugin",
+      "path": "./sample-plugin"
+    }
+  ],
+  "sourceProviders": [
+    {
+      "id": "source-provider-example",
+      "path": "./source-provider-example"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "source-provider-example",
+  "name": "Custom Source Provider Example",
+  "version": "1.0.0",
+  "description": "Example custom remote source provider for resolving code from custom pastebins and internal git servers",
+  "author": "HELIX-Origin",
+  "entry": "provider.ts",
+  "repository": "https://github.com/HELIX-Origin/helix-plugin-template"
+}

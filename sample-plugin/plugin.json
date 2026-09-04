@@ -1,0 +1,21 @@
+{
+  "id": "sample-plugin",
+  "name": "SampleLang",
+  "version": "1.0.0",
+  "description": "Demonstration language plugin for HELIX implementing linting, explanation, debugging, generation, refactoring, and security inspection",
+  "author": "HELIX-Origin",
+  "fileExtensions": [".sample", ".smp"],
+  "entry": "index.ts",
+  "docUrl": "https://github.com/HELIX-Origin/helix-plugin-template",
+  "capabilities": [
+    "lint",
+    "explain",
+    "docs",
+    "debug",
+    "generate",
+    "refactor",
+    "inspect"
+  ],
+  "dependencies": [],
+  "repository": "https://github.com/HELIX-Origin/helix-plugin-template"
+}
